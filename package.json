@@ -1,0 +1,30 @@
+{
+    "name": "eslint-config-relics",
+    "version": "0.0.1",
+    "description": "coding rules config",
+    "type": "module",
+    "main": "lib/index.cjs",
+    "exports": {
+        "import": "./lib/index.mjs",
+        "require": "./lib/index.cjs"
+    },
+    "files": [
+        "lib"
+    ],
+    "scripts": {
+        "prebuild": "rm -rf lib",
+        "build": "tsdown",
+        "prepublishOnly": "npm run build"
+    },
+    "license": "MIT",
+    "peerDependencies": {
+        "eslint": ">=8",
+        "eslint-plugin-relics": ">=0"
+    },
+    "devDependencies": {
+        "eslint": "^9.39.1",
+        "eslint-plugin-relics": "^0.9.1",
+        "tsdown": "^0.16.0",
+        "typescript": "^5.9.3"
+    }
+}
