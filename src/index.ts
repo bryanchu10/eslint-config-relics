@@ -24,6 +24,5 @@ export const configs = {
 }
 
 export default {
-    recommended: configs.recommended,
-    "recommended-legacy": configs["recommended-legacy"]
+    configs,
 };
