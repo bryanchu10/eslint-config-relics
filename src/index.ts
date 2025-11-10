@@ -13,14 +13,6 @@ export const configs = {
             "relics/prefer-loose-equality": "error",
         },
     },
-    "recommended-legacy": {
-        plugins: ["relics"],
-        rules: {
-            "relics/enforce-foo-bar": "error",
-            "relics/prefer-explicit-property-checks": "error",
-            "relics/prefer-loose-equality": "error",
-        },
-    },
 }
 
-export default configs["recommended-legacy"];
+export default configs;

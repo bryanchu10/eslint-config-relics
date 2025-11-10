@@ -1,6 +1,6 @@
 {
     "name": "eslint-config-relics",
-    "version": "0.0.5",
+    "version": "0.0.4",
     "description": "coding rules config",
     "type": "module",
     "main": "lib/index.cjs",
@@ -10,8 +10,8 @@
             "require": "./lib/index.cjs"
         },
         "./recommended-legacy": {
-            "import": "./lib/index.mjs",
-            "require": "./lib/index.cjs"
+            "import": "./lib/recommended-legacy.mjs",
+            "require": "./lib/recommended-legacy.cjs"
         }
     },
     "files": [
