@@ -4,7 +4,7 @@ export const configs = {
     recommended: {
         plugins: {
             relics: {
-                relicRules,
+                rules: relicRules,
             },
         },
         rules: {
