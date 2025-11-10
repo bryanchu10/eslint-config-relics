@@ -1,14 +1,5 @@
 import { rules as relicRules } from "eslint-plugin-relics"
 
-const recommendedLegacy = {
-    plugins: ["relics"],
-    rules: {
-        "relics/enforce-foo-bar": "error",
-        "relics/prefer-explicit-property-checks": "error",
-        "relics/prefer-loose-equality": "error",
-    },
-};
-
 export const configs = {
     recommended: {
         plugins: {
@@ -22,10 +13,16 @@ export const configs = {
             "relics/prefer-loose-equality": "error",
         },
     },
-    "recommended-legacy": recommendedLegacy,
-};
+    "recommended-legacy": {
+        plugins: ["relics"],
+        rules: {
+            "relics/enforce-foo-bar": "error",
+            "relics/prefer-explicit-property-checks": "error",
+            "relics/prefer-loose-equality": "error",
+        },
+    },
+}
 
 export default {
     configs,
-    "recommended-legacy": recommendedLegacy,
 };
