@@ -1,0 +1,32 @@
+export const recommendedRules = {
+    // eslint
+    "brace-style": ["error", "stroustrup", { "allowSingleLine": true }],
+    "indent": ["error", 4, { "SwitchCase": 1 }],
+    "jsx-quotes": ["error", "prefer-double"],
+    "keyword-spacing": ["error", {"before": true, "after": true}],
+    "padding-line-between-statements": ["error",
+        { "blankLine": "always", "prev": "*", "next": "for" },
+        { "blankLine": "always", "prev": "for", "next": "*" }],
+    "max-statements-per-line": ["error", { "max": 1 }],
+    "no-fallthrough": "error",
+    "no-global-assign": "error",
+    "no-implicit-coercion": "error",
+    "no-implicit-globals": "error",
+    "no-loss-of-precision": "error",
+    "no-negated-condition": "error",
+    "no-nested-ternary": "error",
+    "no-new-native-nonconstructor": "error",
+    "no-obj-calls": "error",
+    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
+    "no-prototype-builtins": "error",
+    "no-setter-return": "error",
+    "no-spaced-func": "error",
+    "no-this-before-super": "error",
+    "no-throw-literal": "error",
+    
+    // eslint-plugin-relics
+    "relics/enforce-foo-bar": "error",
+    "relics/prefer-explicit-property-checks": "error",
+    "relics/prefer-loose-equality": "error",
+    "relics/prefer-interface-block-semi": "error",
+}

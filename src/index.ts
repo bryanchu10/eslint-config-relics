@@ -1,4 +1,5 @@
 import { rules as relicRules } from "eslint-plugin-relics"
+import { recommendedRules } from "./configs/recommended-rules";
 
 export const configs = {
     recommended: {
@@ -7,12 +8,7 @@ export const configs = {
                 rules: relicRules,
             },
         },
-        rules: {
-            "relics/enforce-foo-bar": "error",
-            "relics/prefer-explicit-property-checks": "error",
-            "relics/prefer-loose-equality": "error",
-            "relics/prefer-interface-block-semi": "error",
-        },
+        rules: recommendedRules,
     },
 }
 
