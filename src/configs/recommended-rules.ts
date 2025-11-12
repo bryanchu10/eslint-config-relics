@@ -1,6 +1,8 @@
 export const recommendedRules = {
     // eslint
+    "array-bracket-spacing": ["error", "never"],
     "brace-style": ["error", "stroustrup", { "allowSingleLine": true }],
+    "curly": ["error", "all"],
     "indent": ["error", 4, { "SwitchCase": 1 }],
     "jsx-quotes": ["error", "prefer-double"],
     "keyword-spacing": ["error", {"before": true, "after": true}],
@@ -23,9 +25,12 @@ export const recommendedRules = {
     "no-spaced-func": "error",
     "no-this-before-super": "error",
     "no-throw-literal": "error",
+    "no-unsafe-finally": "error",
+    "no-useless-catch": "error",
+    "object-curly-spacing": ["error", "always"],
     
     // eslint-plugin-relics
-    "relics/enforce-foo-bar": "error",
+    "relics/object-shorthand": ["error", "always"],
     "relics/prefer-explicit-property-checks": "error",
     "relics/prefer-loose-equality": "error",
     "relics/prefer-interface-block-semi": "error",
