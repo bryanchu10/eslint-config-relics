@@ -30,7 +30,7 @@ export const recommendedRules = {
     "object-curly-spacing": ["error", "always"],
     
     // eslint-plugin-relics
-    "relics/object-shorthand": ["error", "always"],
+    "relics/object-shorthand": "error",
     "relics/prefer-explicit-property-checks": "error",
     "relics/prefer-loose-equality": "error",
     "relics/prefer-interface-block-semi": "error",
