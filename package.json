@@ -1,6 +1,6 @@
 {
     "name": "eslint-config-relics",
-    "version": "0.5.0",
+    "version": "0.6.0",
     "description": "coding rules config",
     "type": "module",
     "main": "lib/index.cjs",
