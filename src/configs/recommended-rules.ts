@@ -50,6 +50,27 @@ export const recommendedRules = {
     "rest-spread-spacing": ["error", "never"],
     "semi-spacing": ["error", {"before": false, "after": true}],
     "semi": "error",
+    "space-before-blocks": "error",
+    "space-before-function-paren": ["error", {
+        "anonymous": "never",
+        "named": "never",
+        "asyncArrow": "always"
+    }],
+    "space-in-parens": ["error", "always"],
+    "space-infix-ops": "error",
+    "spaced-comment": "error",
+    "switch-colon-spacing": "error",
+    "symbol-description": "error",
+    "template-curly-spacing": "error",
+    "template-tag-spacing": "error",
+    "use-isnan": "error",
+    "valid-typeof": "error",
+    "wrap-iife": ["error", "inside", {
+        "functionPrototypeMethods": true
+    }],
+    "wrap-regex": "error",
+    "yield-star-spacing": "error",
+    "yoda": "error",
     
     // eslint-plugin-relics
     "relics/object-shorthand": "error",
