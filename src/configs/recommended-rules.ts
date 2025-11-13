@@ -56,7 +56,7 @@ export const recommendedRules = {
         "named": "never",
         "asyncArrow": "always"
     }],
-    "space-in-parens": ["error", "always"],
+    "space-in-parens": ["error", "never"],
     "space-infix-ops": "error",
     "spaced-comment": "error",
     "switch-colon-spacing": "error",
