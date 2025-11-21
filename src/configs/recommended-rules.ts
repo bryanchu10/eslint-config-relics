@@ -76,5 +76,4 @@ export const recommendedRules = {
     "relics/object-shorthand": "error",
     "relics/prefer-explicit-property-checks": "error",
     "relics/prefer-loose-equality": "error",
-    "relics/prefer-interface-block-semi": "error",
 }
