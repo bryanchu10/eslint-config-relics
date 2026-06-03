@@ -32,7 +32,6 @@ export const recommendedRules = {
         { "blankLine": "always", "prev": "*", "next": "for" },
         { "blankLine": "always", "prev": "for", "next": "*" },
         { "blankLine": "always", "prev": "*", "next": "return" },
-        { "blankLine": "any", "prev": "block-like", "next": "return" },
     ],
     "prefer-arrow-callback": "error",
     "prefer-const": "error",
